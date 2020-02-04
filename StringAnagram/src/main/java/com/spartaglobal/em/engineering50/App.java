@@ -1,13 +1,12 @@
 package com.spartaglobal.em.engineering50;
 
-/**
- * Hello world!
- *
- */
+
 public class App 
 {
     public static void main( String[] args )
+
     {
-        System.out.println( "Hello World!" );
+        StringAnagram anagram = new StringAnagram();
+        System.out.println( anagram.isAnagram("mary", "army") );
     }
 }
