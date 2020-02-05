@@ -38,4 +38,9 @@ public class TestStringAnagram {
         assertFalse(anagram.isAnagram("no", "noo"));
     }
 
+    @Test
+    public void testSameLengthSameLetterButNOtAnagram(){
+        assertFalse(anagram.isAnagram("non", "noo"));
+    }
+
 }
